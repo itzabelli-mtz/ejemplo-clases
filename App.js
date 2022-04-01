@@ -1,23 +1,8 @@
-//import { StatusBar } from 'expo-status-bar';
-import React from 'react'
+//import React, { useEffect } from 'react'
 import Navigation from './app/app/Navigations/Navigations'
-//import { StyleSheet, Text, View } from 'react-native';
+import { firebaseApp } from './app/utils/firebase'
+
 
 export default function App() {
-  return <Navigation/>
-
-    //<View style={styles.container}>
-      //<Text>ESTO ES DE GRANSTERS... DE GRANSTERS!!!</Text>
-      //<StatusBar style="auto" />
-    //</View>
-  //);
+  return (<Navigation/>)
 }
-
-//const styles = StyleSheet.create({
-  //container: {
-    //flex: 1,
-    //backgroundColor: '#fff',
-    //alignItems: 'center',
-    //justifyContent: 'center',
-  //},
-//});
